@@ -13,10 +13,13 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Recursion">
+      <UniqueIdentifier>{c7f280a8-5902-4bbe-807f-8297bf1fbe65}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BSWorstOpCount.c">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="HanoiTowerSolu.c">
+      <Filter>소스 파일\Recursion</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
