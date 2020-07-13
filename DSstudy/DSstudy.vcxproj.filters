@@ -17,9 +17,4 @@
       <UniqueIdentifier>{c7f280a8-5902-4bbe-807f-8297bf1fbe65}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="HanoiTowerSolu.c">
-      <Filter>소스 파일\Recursion</Filter>
-    </ClCompile>
-  </ItemGroup>
 </Project>
