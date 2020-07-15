@@ -1,7 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "ArrayList.h"
+#include "DLinkedList.h"
 #include "Point.h"
+
+int WhoIsPrecede(Point* p1, Point* p2)
+{
+	if (p1->xpos < p2->xpos)
+		return 0;
+	else if (p1->xpos > p2->xpos)
+		return 1;
+	else
+	{
+		if (p1->ypos < p1->ypos)
+			return 0;
+		else
+			return 1;
+	}
+
+}
 
 int main(void)
 {
@@ -10,6 +26,8 @@ int main(void)
 	Point* ppos;
 
 	ListInit(&list);
+
+	SetSortRule(&list, WhoIsPrecede);
 
 	// 4개의 데이터 저장
 	ppos = malloc(sizeof(Point));

@@ -19,15 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ArrayList.c" />
-    <ClCompile Include="NameCard.c" />
-    <ClCompile Include="NameCardListMain.c" />
-    <ClCompile Include="Point.c" />
+    <ClCompile Include="DLinkedList.c" />
+    <ClCompile Include="DLinkedlistSortMain.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ArrayList.h" />
-    <ClInclude Include="Namecard.h" />
-    <ClInclude Include="Point.h" />
+    <ClInclude Include="DLinkedList.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
