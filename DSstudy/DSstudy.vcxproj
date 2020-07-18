@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DLinkedList.c" />
-    <ClCompile Include="DLinkedlistSortMain.c" />
+    <ClInclude Include="CLinkedList.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DLinkedList.h" />
+    <ClCompile Include="CLinkedList.c" />
+    <ClCompile Include="CLinkedListMain.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

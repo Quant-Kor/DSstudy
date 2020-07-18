@@ -23,6 +23,7 @@ void LInsert(List* plist, Data data)
 	{
 		newNode->next = plist->tail->next;
 		plist->tail->next = newNode;
+		plist->tail = newNode;
 	}
 
 	(plist->numOfData)++;
@@ -41,7 +42,6 @@ void LInsertFront(List* plist, Data data)
 	{
 		newNode->next = plist->tail->next;
 		plist->tail->next = newNode;
-		plist->tail = newNode;
 	}
 
 	(plist->numOfData)++;
