@@ -1,4 +1,4 @@
-﻿  EmployeeCLinkedListmain.c
-C:\Users\dlwoa\source\repos\DSstudy\DSstudy\EmployeeCLinkedListmain.c(46,15): warning C4101: 'nodeNum' :참조되지 않은 지역 변수입니다.
-C:\Users\dlwoa\source\repos\DSstudy\DSstudy\EmployeeCLinkedListmain.c(46,6): warning C4101: 'data' :참조되지 않은 지역 변수입니다.
+﻿  DBDLinkedList.c
+  DBDLinkedListMain.c
+  코드를 생성하고 있습니다...
   DSstudy.vcxproj -> C:\Users\dlwoa\source\repos\DSstudy\Debug\DSstudy.exe

@@ -19,12 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CLinkedList.h" />
-    <ClInclude Include="Employee.h" />
+    <ClInclude Include="DBDLinkedList.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CLinkedList.c" />
-    <ClCompile Include="EmployeeCLinkedListmain.c" />
+    <ClCompile Include="DBDLinkedList.c" />
+    <ClCompile Include="DBDLinkedListMain.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
