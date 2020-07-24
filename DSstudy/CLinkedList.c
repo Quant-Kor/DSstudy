@@ -5,10 +5,11 @@
 void ListInit(List* plist)
 {
 	plist->tail = NULL;
-	plist->cur = NULL;
 	plist->before = NULL;
+	plist->cur = NULL;
 	plist->numOfData = 0;
 }
+
 void LInsert(List* plist, Data data)
 {
 	Node* newNode = malloc(sizeof(Node));
@@ -25,7 +26,7 @@ void LInsert(List* plist, Data data)
 		plist->tail->next = newNode;
 		plist->tail = newNode;
 	}
-
+	
 	(plist->numOfData)++;
 }
 void LInsertFront(List* plist, Data data)

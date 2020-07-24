@@ -3,7 +3,7 @@
 
 int main(void)
 {
-	// 원형 연결 리스트의 생성 및 초기화
+	// 원형 연결리스트의 생성 및 초기화
 	List list;
 	int data, i, nodeNum;
 	ListInit(&list);
@@ -20,7 +20,7 @@ int main(void)
 	{
 		printf("%d ", data);
 
-		for (i = 0; i < LCount(&list) * 3 - 1; i++)
+		for (i = 0; i < LCount(&list)*3 - 1; i++)
 		{
 			if (LNext(&list, &data))
 				printf("%d ", data);
@@ -56,6 +56,5 @@ int main(void)
 				printf("%d ", data);
 		}
 	}
-
 	return 0;
 }

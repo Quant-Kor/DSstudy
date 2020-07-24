@@ -20,10 +20,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CLinkedList.h" />
+    <ClInclude Include="Employee.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CLinkedList.c" />
-    <ClCompile Include="CLinkedListMain.c" />
+    <ClCompile Include="EmployeeCLinkedListmain.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
