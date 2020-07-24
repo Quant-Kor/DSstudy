@@ -20,13 +20,13 @@ Employee* WhoisNextdangjik(List* plist, char* empname, int day)
 
 	LFirst(plist, &emp);
 
-	if (strcpy(emp->name, empname) != 0)
+	if (strcmp(emp->name, empname) != 0)
 	{
 		for (i = 0; i < num - 1; i++)
 		{
 			LNext(plist, &emp);
 
-			if (strcpy(emp->name, empname))
+			if (!strcmp(emp->name, empname))
 				break;
 		}
 		if (i >= num - 1)
@@ -54,29 +54,29 @@ int main(void)
 	// ¡˜ø¯¡§∫∏ ¿˙¿Â
 	pemp = malloc(sizeof(Employee));
 	pemp->ssn = 1111;
-	strcpy(pemp->name, "¿Ã¡§πŒ1");
+	strcpy(pemp->name, "Terry");
 	LInsert(&list, pemp);
 
 	pemp = malloc(sizeof(Employee));
 	pemp->ssn = 2222;
-	strcpy(pemp->name, "¿Ã¡§πŒ2");
+	strcpy(pemp->name, "Jery");
 	LInsert(&list, pemp);
 
 	pemp = malloc(sizeof(Employee));
 	pemp->ssn = 3333;
-	strcpy(pemp->name, "¿Ã¡§πŒ3");
+	strcpy(pemp->name, "Hary");
 	LInsert(&list, pemp);
 
 	pemp = malloc(sizeof(Employee));
 	pemp->ssn = 4444;
-	strcpy(pemp->name, "¿Ã¡§πŒ4");
+	strcpy(pemp->name, "Sunny");
 	LInsert(&list, pemp);
 
 
-	pemp = WhoisNextdangjik(&list, "¿Ã¡§πŒ3", 7);
+	pemp = WhoisNextdangjik(&list, "Terry", 3);
 	ShowEmpinfo(pemp);
 
-	pemp = WhoisNextdangjik(&list, "¿Ã¡§πŒ1", 2);
+	pemp = WhoisNextdangjik(&list, "Sunny", 15);
 	ShowEmpinfo(pemp);
 
 	if (LFirst(&list, &pemp))
