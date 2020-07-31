@@ -15,15 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ListBaseQueue.h">
+    <ClInclude Include="Deque.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DequeBaseQueue.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ListBaseQueue.c">
+    <ClCompile Include="Deque.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="HamburgerSim.c">
+    <ClCompile Include="DequeBaseQueue.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DequeBaseQueueMain.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

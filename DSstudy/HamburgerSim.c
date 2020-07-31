@@ -66,6 +66,6 @@ int main(void)
 	printf(" - Cheese burger: %d \n", cheOrder); 
 	printf(" - Bulgogi burger: %d \n", bulOrder);
 	printf(" - Double burger: %d \n", dubOrder);
-	printf(" - Waiting room size: %d \n", QUE_LEN);
+	printf(" - Waiting room size: %d \n", QUE_LEN); // QUE_LEN의 크기를 바꾸어서 대기실의 크기조정가능
 	return 0;
 }

@@ -19,11 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ListBaseQueue.h" />
+    <ClInclude Include="Deque.h" />
+    <ClInclude Include="DequeBaseQueue.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HamburgerSim.c" />
-    <ClCompile Include="ListBaseQueue.c" />
+    <ClCompile Include="Deque.c" />
+    <ClCompile Include="DequeBaseQueue.c" />
+    <ClCompile Include="DequeBaseQueueMain.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
