@@ -3,15 +3,24 @@
 #include <time.h>
 #include "CircularQueue.h"
 
+/* 조건
+- 점심시간은 1시간이고 그동안 고객은 15초에 1명씩 주문을 하는 것으로 간주
+- 한 명의 고객은 하나의 버거 만을 주문
+- 주문하는 메뉴에는 가중치 X, 모든 고객은 무작위로 메뉴 선택
+- 햄버거를 만드는 사람은 1명, 동시에 둘이상의 버거 생산 X
+- 주문한 메뉴를 받을 다음 고객은 대기실에서 나와서 대기
+*/
+
+
 #define CUS_COME_TERM 15 // 고객의 주문 간격 : 초 단위
 
-#define CHE_BUR 0
-#define BUL_BUR 1
-#define DUB_BUR 2
+#define CHE_BUR 0  // 치즈버거 상수
+#define BUL_BUR 1 // 불고기버거 상수
+#define DUB_BUR 2 // 더블버거 상수
 
-#define CHE_TERM 12
-#define BUL_TERM 15
-#define DUB_TERM 24
+#define CHE_TERM 12 // 치즈버거 제작 시간 : 초 단위
+#define BUL_TERM 15 // 불고기버거 "
+#define DUB_TERM 24 // 더블버거 "
 
 int main(void)
 {
@@ -47,10 +56,10 @@ int main(void)
 			}
 		}
 
-		if (makeProc <= 0 && !QIsEmpty(&que))
-			makeProc = Dequeue(&que);
+		if (makeProc <= 0 && !QIsEmpty(&que)) // 햄버거가 다 만들어지고 주문이 있는 경우에 새로운 버거 생산!
+			makeProc = Dequeue(&que); // 대기실에서 나와서 대기
 
-		makeProc--;
+		makeProc--; // 햄버거가 사이클 돌때마다 1초씩 완성됨
 	}
 
 	printf("Simulation Report! ------------------------ \n");
