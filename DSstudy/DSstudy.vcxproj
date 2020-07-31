@@ -22,8 +22,8 @@
     <ClInclude Include="ListBaseQueue.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="HamburgerSim.c" />
     <ClCompile Include="ListBaseQueue.c" />
-    <ClCompile Include="ListBaseQueueMain.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

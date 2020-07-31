@@ -23,7 +23,7 @@
     <ClCompile Include="ListBaseQueue.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ListBaseQueueMain.c">
+    <ClCompile Include="HamburgerSim.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
