@@ -72,6 +72,7 @@ void ConvToRPNExp(char exp[])
 				break;
 			case '+': case'-':
 			case '*': case'/':
+
 				while (!SIsEmpty(&stack) && WhoPrecOp(SPeek(&stack), tok) >= 0)
 					convExp[idx++] = SPop(&stack);
 
