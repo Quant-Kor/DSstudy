@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CircularQueue.h">
+    <ClInclude Include="ListBaseQueue.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CircularQueue.c">
+    <ClCompile Include="ListBaseQueue.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="CircularQueueMain.c">
+    <ClCompile Include="ListBaseQueueMain.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

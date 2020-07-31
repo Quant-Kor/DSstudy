@@ -1,4 +1,8 @@
-﻿  CircularQueue.c
-  CircularQueueMain.c
+﻿  ListBaseQueue.c
+C:\Users\dlwoa\source\repos\DSstudy\DSstudy\ListBaseQueue.c(16,24): warning C4013: 'malloc'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\dlwoa\source\repos\DSstudy\DSstudy\ListBaseQueue.c(16,1): warning C4047: '초기화 중': 'Node *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\dlwoa\source\repos\DSstudy\DSstudy\ListBaseQueue.c(38,7): warning C4013: 'exit'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\dlwoa\source\repos\DSstudy\DSstudy\ListBaseQueue.c(45,6): warning C4013: 'free'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  ListBaseQueueMain.c
   코드를 생성하고 있습니다...
   DSstudy.vcxproj -> C:\Users\dlwoa\source\repos\DSstudy\Debug\DSstudy.exe
