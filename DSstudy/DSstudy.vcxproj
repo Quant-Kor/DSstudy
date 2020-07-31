@@ -19,13 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Deque.h" />
-    <ClInclude Include="DequeBaseQueue.h" />
+    <ClInclude Include="BinaryTree.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Deque.c" />
-    <ClCompile Include="DequeBaseQueue.c" />
-    <ClCompile Include="DequeBaseQueueMain.c" />
+    <ClCompile Include="BinaryTree.c" />
+    <ClCompile Include="BinaryTreeMain.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
