@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DBDLinkedList.h">
+    <ClInclude Include="ListBaseStack.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="ListBaseStack.h">
+    <ClInclude Include="InfixToPostfix.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DBDLinkedList.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="ListBaseStack.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ListBaseStackMain.c">
+    <ClCompile Include="InfixToPostfix.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="InfixToPostfixMain.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

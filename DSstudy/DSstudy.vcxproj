@@ -19,13 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DBDLinkedList.h" />
+    <ClInclude Include="InfixToPostfix.h" />
     <ClInclude Include="ListBaseStack.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DBDLinkedList.c" />
+    <ClCompile Include="InfixToPostfix.c" />
+    <ClCompile Include="InfixToPostfixMain.c" />
     <ClCompile Include="ListBaseStack.c" />
-    <ClCompile Include="ListBaseStackMain.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
