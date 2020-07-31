@@ -19,15 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="InfixCalculator.h" />
     <ClInclude Include="InfixToPostfix.h" />
     <ClInclude Include="ListBaseStack.h" />
     <ClInclude Include="PostCalculator.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="InfixCalculatorMain.c" />
     <ClCompile Include="InfixToPostfix.c" />
+    <ClCompile Include="InifxCalculator.c" />
     <ClCompile Include="ListBaseStack.c" />
     <ClCompile Include="PostCalculator.c" />
-    <ClCompile Include="PostCalculatorMain.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
