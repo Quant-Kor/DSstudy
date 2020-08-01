@@ -23,7 +23,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BinaryTree.c" />
-    <ClCompile Include="BinaryTreeMain.c" />
+    <ClCompile Include="BinaryTreeTraverseMain.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

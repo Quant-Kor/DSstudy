@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "BinaryTree.h"
 
-BTreeNode* MakeBTreeNde(void)
+BTreeNode* MakeBTreeNode(void)
 {
 	BTreeNode* nd = malloc(sizeof(BTreeNode));
 	nd->left = NULL;
