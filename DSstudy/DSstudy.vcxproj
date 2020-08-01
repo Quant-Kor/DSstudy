@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BinaryTree.h" />
+    <ClInclude Include="BinaryTree2.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BinaryTree.c" />
-    <ClCompile Include="BinaryTreeTraverseMain.c" />
+    <ClCompile Include="BinaryTree2.c" />
+    <ClCompile Include="BinaryTreeMain2.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
