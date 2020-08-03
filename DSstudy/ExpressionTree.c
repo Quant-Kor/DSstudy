@@ -33,9 +33,28 @@ BTreeNode* MakeExpTree(char exp[])
 
 	return SPop(&stack);
 }
-int EvaluateExpTree(BTreeNode* bt)
+int EvaluateExpTree(BTreeNode* bt) // 재귀적으로 생각!
 {
-	// 후에 구현
+	int op1, op2;
+
+	if (GetLeftSubTree(bt) == NULL && GetRightSubTree(bt) == NULL) // 단말노드일 경우 그 데이터 반환!
+		return GetData(bt);
+
+	op1 = EvaluateExpTree(GetLeftSubTree(bt)); // 왼쪽 서브트리 계산
+	op2 = EvaluateExpTree(GetRightSubTree(bt)); // 오른쪽 서브트리 계산
+
+	switch (GetData(bt))
+	{
+	case '+' :
+		return op1 + op2;
+	case '-':
+		return op1 - op2;
+	case '*':
+		return op1 * op2;
+	case '/' :
+		return op1 / op2;
+	}
+	return 0;
 }
 
 void ShowNodeData(int data)
