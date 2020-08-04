@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SimpleHeap.h">
+    <ClInclude Include="UsefulHeap.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SimpleHeap.c">
+    <ClCompile Include="UsefulHeap.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="SimpleHeapMain.c">
+    <ClCompile Include="UseFulHeapMain.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
