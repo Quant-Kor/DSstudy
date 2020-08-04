@@ -18,12 +18,18 @@
     <ClInclude Include="UsefulHeap.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="PriorityQueue.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UsefulHeap.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="UseFulHeapMain.c">
+    <ClCompile Include="PriorityQueue.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PQStringMain.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
