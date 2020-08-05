@@ -19,13 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="PriorityQueue.h" />
-    <ClInclude Include="UsefulHeap.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="PQStringMain.c" />
-    <ClCompile Include="PriorityQueue.c" />
-    <ClCompile Include="UsefulHeap.c" />
+    <ClCompile Include="BubbleSort.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
