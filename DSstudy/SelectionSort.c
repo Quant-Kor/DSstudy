@@ -18,8 +18,8 @@ void SelSort(int arr[], int n)
 
 		// ±³È¯
 
-		temp = arr[j];
-		arr[j] = arr[maxIdx];
+		temp = arr[i];
+		arr[i] = arr[maxIdx];
 		arr[maxIdx] = temp;
 	}
 }
