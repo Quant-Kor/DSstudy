@@ -20,6 +20,5 @@ int main(void)
 
 	while (!PQIsEmpty(&pq))
 		printf("%s \n", PDequeue(&pq));
-	
 	return 0;
 }
