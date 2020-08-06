@@ -1,3 +1,2 @@
-﻿  HeapSort.c
-C:\Users\dlwoa\source\repos\DSstudy\DSstudy\HeapSort.c(23,33): warning C4020: 'HDelete': 실제 매개 변수가 너무 많습니다.
+﻿  MergeSort.c
   DSstudy.vcxproj -> C:\Users\dlwoa\source\repos\DSstudy\Debug\DSstudy.exe

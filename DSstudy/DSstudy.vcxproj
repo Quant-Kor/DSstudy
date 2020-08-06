@@ -19,11 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HeapSort.c" />
-    <ClCompile Include="UsefulHeap.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="UsefulHeap.h" />
+    <ClCompile Include="MergeSort.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
