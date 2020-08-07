@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="QuickSortmy.c" />
+    <ClInclude Include="ListBaseQueue.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ListBaseQueue.c" />
+    <ClCompile Include="RadixSort.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
