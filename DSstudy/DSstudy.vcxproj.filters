@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BinaryTree2.c">
+    <ClCompile Include="BinarySearchTree2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="BinarySearchTree.c">
+    <ClCompile Include="BinaryTree3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="BinarySearchTreeMain.c">
+    <ClCompile Include="BinarySearchTreeDelMain.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BinaryTree2.h">
+    <ClInclude Include="BinarySearchTree2.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="BinarySearchTree.h">
+    <ClInclude Include="BinaryTree3.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
