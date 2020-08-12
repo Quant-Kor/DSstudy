@@ -8,7 +8,7 @@ int ISearch(int ar[], int first, int last, int target)
 {
 	int mid;
 
-	if (ar[first] > target || ar[last]< target)
+	if (ar[first] > target || ar[last]< target) // 값이 넘어 갈때를 기준으로 판단을 해야함!
 		return -1;
 
 	mid = ((double)(target - ar[first]) / (ar[last] - ar[first]) * (last - first)) + first;
