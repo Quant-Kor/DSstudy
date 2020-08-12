@@ -1,3 +1,4 @@
-﻿  InterpolSearch.c
-C:\Users\dlwoa\source\repos\DSstudy\DSstudy\InterpolSearch.c(14,88): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  BinarySearchTree.c
+  BinarySearchTreeMain.c
+  코드를 생성하고 있습니다...
   DSstudy.vcxproj -> C:\Users\dlwoa\source\repos\DSstudy\Debug\DSstudy.exe

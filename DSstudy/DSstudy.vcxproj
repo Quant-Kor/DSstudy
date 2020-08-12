@@ -19,7 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="InterpolSearch.c" />
+    <ClCompile Include="BinarySearchTreeMain.c" />
+    <ClCompile Include="BinaryTree2.c" />
+    <ClCompile Include="BinarySearchTree.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BinarySearchTree.h" />
+    <ClInclude Include="BinaryTree2.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
