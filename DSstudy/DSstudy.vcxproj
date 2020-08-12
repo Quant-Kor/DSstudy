@@ -19,11 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ListBaseQueue.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="ListBaseQueue.c" />
-    <ClCompile Include="RadixSort.c" />
+    <ClCompile Include="InterpolSearch.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
