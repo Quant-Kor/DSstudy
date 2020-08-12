@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+// 보간 탐색이며 기존 이진 탐색과 다른점이 mid에서 이진 탐색의 경우 중앙에서 찾기를 시작하지만
+// 보간 탐색의 찾는 기준을 찾는 위치와 비례하며 찾기 떄문에 이진 탐색보다 효율적으로 찾을 수 있음
+// double형ㅇ르 사용한 이유는 모든 연산들이 실수형으로 진행되어 오차가 최소화 되도록!
+
 int ISearch(int ar[], int first, int last, int target)
 {
 	int mid;
