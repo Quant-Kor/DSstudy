@@ -42,6 +42,7 @@ void BSTInsert(BTreeNode** pRoot, BSTData data)
 	return *pRoot;
 	* 
 	*/
+
 	BTreeNode* pNode = NULL;
 	BTreeNode* cNode = *pRoot;
 	BTreeNode* nNode = NULL;
