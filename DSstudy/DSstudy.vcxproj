@@ -19,14 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ChainedTableMain.c" />
+    <ClCompile Include="DLinkedList.c" />
     <ClCompile Include="Person.c" />
-    <ClCompile Include="SimpleHashMain.c" />
-    <ClCompile Include="Table.c" />
+    <ClCompile Include="Table2.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DLinkedList.h" />
     <ClInclude Include="Person.h" />
-    <ClInclude Include="Slot.h" />
-    <ClInclude Include="Table.h" />
+    <ClInclude Include="Slot2.h" />
+    <ClInclude Include="Table2.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
