@@ -19,7 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TableHashFunction.c" />
+    <ClCompile Include="Person.c" />
+    <ClCompile Include="SimpleHashMain.c" />
+    <ClCompile Include="Table.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="Slot.h" />
+    <ClInclude Include="Table.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
