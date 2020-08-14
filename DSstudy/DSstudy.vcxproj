@@ -19,15 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AVLRebalance.c" />
-    <ClCompile Include="AVLTreeMain.c" />
-    <ClCompile Include="BinarySearchTree3.c" />
-    <ClCompile Include="BinaryTree3.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="AVLRebalance.h" />
-    <ClInclude Include="BinarySearchTree3.h" />
-    <ClInclude Include="BinaryTree3.h" />
+    <ClCompile Include="TableHashFunction.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

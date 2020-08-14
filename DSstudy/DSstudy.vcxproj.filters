@@ -15,28 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BinaryTree3.c">
+    <ClCompile Include="TableHashFunction.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="BinarySearchTree3.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="AVLRebalance.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="AVLTreeMain.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="BinaryTree3.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="BinarySearchTree3.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="AVLRebalance.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
