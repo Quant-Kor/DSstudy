@@ -67,7 +67,7 @@ void ShowGraphEdgeInfo(ALGraph* pg)
 
 int WhoIsPrecede(int data1, int data2)
 {
-	if (data1 < data2)
+	if (data1 > data2)
 		return 0;
 	else
 		return 1;
@@ -84,7 +84,7 @@ int VisitVertex(ALGraph* pg, int visitV)
 	return FALSE;
 }
 
-void DFShowGrapVertex(ALGraph* pg, int startV)
+void DFShowGraphVertex(ALGraph* pg, int startV)
 {
 	Stack stack;
 	int visitV = startV;
@@ -126,6 +126,6 @@ void DFShowGrapVertex(ALGraph* pg, int startV)
 			else
 				visitV = SPop(&stack);
 		}
-		memset(pg->visitInfo, 0, sizeof(int) * pg->numV);
 	}
+	memset(pg->visitInfo, 0, sizeof(int) * pg->numV);
 }
