@@ -19,12 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ALGraph.h" />
+    <ClInclude Include="ALGraphDFS.h" />
+    <ClInclude Include="ArrayBaseStack.h" />
     <ClInclude Include="DLinkedList.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ALGraph.c" />
-    <ClCompile Include="ALGraphMain.c" />
+    <ClCompile Include="ALGraphDFS.c" />
+    <ClCompile Include="ArrayBaseStack.c" />
+    <ClCompile Include="DFSMain.c" />
     <ClCompile Include="DLinkedList.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
