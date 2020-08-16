@@ -18,10 +18,7 @@
     <ClInclude Include="DLinkedList.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="ALGraphDFS.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="ArrayBaseStack.h">
+    <ClInclude Include="CircularQueue.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -29,13 +26,16 @@
     <ClCompile Include="DLinkedList.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ArrayBaseStack.c">
+    <ClCompile Include="ALGraphBFS.h">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ALGraphBFS.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ALGraphDFS.c">
+    <ClCompile Include="CircularQueue.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="DFSMain.c">
+    <ClCompile Include="BFSMain.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

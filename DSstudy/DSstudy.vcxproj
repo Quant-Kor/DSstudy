@@ -19,15 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ALGraphDFS.h" />
-    <ClInclude Include="ArrayBaseStack.h" />
+    <ClInclude Include="CircularQueue.h" />
     <ClInclude Include="DLinkedList.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ALGraphDFS.c" />
-    <ClCompile Include="ArrayBaseStack.c" />
-    <ClCompile Include="DFSMain.c" />
+    <ClCompile Include="ALGraphBFS.c" />
+    <ClCompile Include="CircularQueue.c" />
     <ClCompile Include="DLinkedList.c" />
+    <ClCompile Include="ALGraphBFS.h" />
+    <ClCompile Include="BFSMain.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
