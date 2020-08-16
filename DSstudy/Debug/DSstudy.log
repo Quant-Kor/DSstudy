@@ -1,2 +1,4 @@
-﻿  ALGraphBFS.c
+﻿  ALGraphKruskal.c
+C:\Users\dlwoa\source\repos\DSstudy\DSstudy\ALGraphKruskal.c(58,13): warning C4013: 'VisitVertex'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\dlwoa\source\repos\DSstudy\DSstudy\ALGraphKruskal.c(146,1): warning C4029: 선언된 정식 매개 변수 목록이 정의와 다릅니다.
   DSstudy.vcxproj -> C:\Users\dlwoa\source\repos\DSstudy\Debug\DSstudy.exe

@@ -19,15 +19,20 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CircularQueue.h" />
+    <ClInclude Include="ALEdge.h" />
+    <ClInclude Include="ALGraphKruskal.h" />
+    <ClInclude Include="ArrayBaseStack.h" />
     <ClInclude Include="DLinkedList.h" />
+    <ClInclude Include="PriorityQueue.h" />
+    <ClInclude Include="UsefulHeap.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ALGraphBFS.c" />
-    <ClCompile Include="CircularQueue.c" />
+    <ClCompile Include="ALGraphKruskal.c" />
+    <ClCompile Include="ArrayBaseStack.c" />
     <ClCompile Include="DLinkedList.c" />
-    <ClCompile Include="ALGraphBFS.h" />
-    <ClCompile Include="BFSMain.c" />
+    <ClCompile Include="KrukskalMain.c" />
+    <ClCompile Include="PriorityQueue.c" />
+    <ClCompile Include="UsefulHeap.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
